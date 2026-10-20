@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite both the article and this archived release."
+title: "Analysis code for: Splice-Event and Gene-Abundance Layers Are Independent and Differ in Human Asthma Relevance"
+type: software
+authors:
+  - family-names: "Li"
+    given-names: "Ting"
+  - family-names: "Wang"
+    given-names: "Zida"
+  - family-names: "Yin"
+    given-names: "Ling"
+    orcid: "https://orcid.org/[TO BE INSERTED]"
+  - family-names: "Ding"
+    given-names: "Shenggang"
+repository-code: "https://github.com/[your-user-name]/ova-splice-asthma-code"
+url: "https://doi.org/[CODE DOI TO BE INSERTED]"
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-20"
+abstract: >-
+  Analysis scripts for gene-level and splice-event-level profiling of a chronic ovalbumin model of
+  allergic airway inflammation, splicing-factor and transcription-factor layer analysis,
+  novel-transcript annotation sensitivity, cross-species mapping to two human asthma cohorts, and
+  receiver-operating-characteristic comparison with DeLong testing and type-2 stratification.
+keywords:
+  - asthma
+  - alternative splicing
+  - RNA sequencing
+  - ovalbumin
+  - RNA-binding proteins
+  - cross-species validationreferences:
+  - type: dataset
+    title: "Processed transcriptomic data for: Splice-Event and Gene-Abundance Layers Are Independent and Differ in Human Asthma Relevance"
+    doi: "10.5281/zenodo.23504525"
+    authors:
+      - family-names: "Li"
+        given-names: "Ting"
