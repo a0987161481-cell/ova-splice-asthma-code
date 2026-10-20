@@ -1,0 +1,24 @@
+=== GSE152004 : asthma 441 / control 254 ===
+  DEG  genes=266  AUC(auto)=0.573  AUC(a priori direction)=0.573
+  DAS  genes=187  AUC(auto)=0.626  AUC(a priori direction)=0.626
+  SF   genes=287  AUC(auto)=0.534  AUC(a priori direction)=0.534
+  RND  genes=212  AUC(auto)=0.500  AUC(a priori direction)=0.500
+  DeLong DAS vs DEG: Z = 2.724, P = 0.00646
+  DeLong SF/RBP vs DEG: Z = -1.320, P = 0.187
+  delta AUC (DAS - DEG) = 0.053 ; bootstrap 95% CI 0.016 to 0.089 (B = 2000)
+
+=== type-2 strata (GSE152004) ===
+  type-2 genes: CLCA1,POSTN,SERPINB2,CCL26 ; high = 220 low = 221 controls = 254
+  type-2-high: DEG AUC(auto) = 0.681 / DAS AUC(auto) = 0.598   [a priori: DEG 0.681 ; DAS 0.598]
+  DeLong DAS vs DEG within type-2-high: Z = -3.820, P = 0.000134
+  type-2-low: DEG AUC(auto) = 0.535 / DAS AUC(auto) = 0.653   [a priori: DEG 0.465 ; DAS 0.653]
+  DeLong DAS vs DEG within type-2-low: Z = 8.787, P = <1e-04
+
+=== GSE158752 : asthma 50 / healthy 17 ===
+  DEG  genes=266  AUC(a priori)=0.614 (95% CI 0.477-0.751)  AUC(auto)=0.614
+  DAS  genes=186  AUC(a priori)=0.636 (95% CI 0.489-0.784)  AUC(auto)=0.636
+  SF   genes=286  AUC(a priori)=0.767 (95% CI 0.647-0.887)  AUC(auto)=0.767
+  RND  genes=209  AUC(a priori)=0.567 (95% CI 0.415-0.719)  AUC(auto)=0.567
+  DeLong DAS vs DEG (GSE158752): Z = 0.358, P = 0.72
+
+DONE
