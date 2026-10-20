@@ -1,0 +1,45 @@
+{
+  "title": "Analysis code for: Splice-Event and Gene-Abundance Layers Are Independent and Differ in Human Asthma Relevance",
+  "upload_type": "software",
+  "description": "Analysis scripts for gene-level and splice-event-level profiling of a chronic ovalbumin model of allergic airway inflammation, including splicing-factor and transcription-factor layer analysis, a novel-transcript annotation sensitivity check, cross-species mapping to GSE152004 and GSE158752, and receiver-operating-characteristic comparison of expression-derived and splice-derived signatures with DeLong testing, bootstrap confidence intervals and type-2 stratification.",
+  "creators": [
+    {
+      "name": "Li, Ting",
+      "affiliation": "The First Affiliated Hospital of Anhui Medical University"
+    },
+    {
+      "name": "Wang, Zida",
+      "affiliation": "Weifang Institute of Technology"
+    },
+    {
+      "name": "Yin, Ling",
+      "affiliation": "University of Florida; The First Affiliated Hospital of Anhui Medical University",
+      "orcid": ""
+    },
+    {
+      "name": "Ding, Shenggang",
+      "affiliation": "The First Affiliated Hospital of Anhui Medical University"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "asthma",
+    "alternative splicing",
+    "RNA sequencing",
+    "ovalbumin",
+    "RNA-binding proteins",
+    "cross-species validation",
+    "DeLong test"
+  ],
+  "language": "eng",
+  "publication_date": "2026-10-20",
+  "related_identifiers": [
+    {
+      "relation": "isSupplementedBy",
+      "identifier": "10.5281/zenodo.23504525",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ]
+}
